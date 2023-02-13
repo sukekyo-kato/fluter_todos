@@ -53,6 +53,27 @@ flutter_gen:
   integrations:
     flutter_svg: true
 
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/image/app_icon.png"
+  adaptive_icon_background: "#cccccc"
+  adaptive_icon_foreground: "assets/image/app_icon_white.png"
+
+flutter_native_splash:
+  image: "assets/image/app_icon.png"
+  color: "#e1f5fe"
+  # dark mode
+  image_dark: "assets/image/app_icon_white.png"
+  color_dark: "#042a49"
+
+  android_12:
+    image: "assets/image/app_icon.png"
+    color: "#e1f5fe"
+    # dark mode
+    image_dark: "assets/image/app_icon_white.png"
+    color_dark: "#042a49"
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter packages.
